@@ -47,7 +47,7 @@ describe('database initialization', function () {
             settings: {}
         };
         app.initDatabase(args, function (err) {
-            err.message.should.equal('Empty schema!');
+            err.message.should.equal("ER_DBACCESS_DENIED_ERROR: Access denied for user 'liolio'@'localhost' to database 'express-admin-empty'");
             done();
         });
     });

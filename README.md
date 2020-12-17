@@ -1,6 +1,5 @@
 
 ![img-screenshot]
-.
 ---
 
 [![img-npm-version]][url-npm]
